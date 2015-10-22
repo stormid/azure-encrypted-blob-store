@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2E816F46-0DE9-430F-886A-F22E5C15586C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47E4725C-9A4E-426B-BA5B-60630420EDCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEncryptedBlobStore", "src\AzureEncryptedBlobStore\AzureEncryptedBlobStore.csproj", "{52E85C46-3D3C-4D0C-AD04-4B5FA01AA947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{1C0A2469-9106-496C-B838-24842798A006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "sample\Sample\Sample.csproj", "{71CB268B-A323-4A8F-BBC6-44F0EB3EA7A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52E85C46-3D3C-4D0C-AD04-4B5FA01AA947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E85C46-3D3C-4D0C-AD04-4B5FA01AA947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E85C46-3D3C-4D0C-AD04-4B5FA01AA947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E85C46-3D3C-4D0C-AD04-4B5FA01AA947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CB268B-A323-4A8F-BBC6-44F0EB3EA7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CB268B-A323-4A8F-BBC6-44F0EB3EA7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CB268B-A323-4A8F-BBC6-44F0EB3EA7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CB268B-A323-4A8F-BBC6-44F0EB3EA7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52E85C46-3D3C-4D0C-AD04-4B5FA01AA947} = {47E4725C-9A4E-426B-BA5B-60630420EDCA}
+		{71CB268B-A323-4A8F-BBC6-44F0EB3EA7A7} = {1C0A2469-9106-496C-B838-24842798A006}
+	EndGlobalSection
+EndGlobal
